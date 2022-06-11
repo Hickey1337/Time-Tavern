@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &164845702150732931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7998404787593591393}
+    m_Modifications:
+    - target: {fileID: -6057140222963153312, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a995ed02740366c4e8cdd53744addf78, type: 2}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2869798227476437365, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 42d3cdf2eb18d764686e87513c3cf03c, type: 2}
+    - target: {fileID: -927199367670048503, guid: 26cbe64851e35424ba16182e4cdc42d2,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC_Shakespeare
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26cbe64851e35424ba16182e4cdc42d2, type: 3}
+--- !u!95 &3006453217534720739 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -6057140222963153312, guid: 26cbe64851e35424ba16182e4cdc42d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 164845702150732931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4927250121202735371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3125798479054938976, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: touchHighlight.r
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938976, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: touchHighlight.g
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938976, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: touchHighlight.b
+      value: 0.745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938977, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938977, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Shakespear
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938977, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: abcdefhijklmnopqrstuvwxyz
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938982, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: _anim
+      value: 
+      objectReference: {fileID: 3006453217534720739}
+    - target: {fileID: 3125798479054938983, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.8536503
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054939001, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: m_Name
+      value: Shakespeare Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3125798479054939007, guid: 965ca06b6fd21464d827d6053c9576f2,
+        type: 3}
+      propertyPath: controllerEvents
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 965ca06b6fd21464d827d6053c9576f2, type: 3}
+--- !u!4 &7998404787593591393 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3125798479054938986, guid: 965ca06b6fd21464d827d6053c9576f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4927250121202735371}
+  m_PrefabAsset: {fileID: 0}
